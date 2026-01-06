@@ -43,6 +43,7 @@ def getSettlementData(settlement):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={settlement}&appid={openWeatherKey}&units=metric"
     response = requests.get(url)
     data = response.json()
+    logging.info('data collected as json')
 
    
     if data.get("cod") != 200:
@@ -67,6 +68,8 @@ def getSettlementData(settlement):
         "timestamp": data["dt"]
     }
 
+    logging.info('data stored and returned as dataframe')
+
     return pd.DataFrame([settlementData])
 
 
@@ -79,6 +82,7 @@ def compileData(dataframes):
         logging.info('hourly dataset compiled')
         fileName = f'weatherData_{datetime.now().strftime("%d_%m_%Y_%H_%M_%S")}.csv'
         df.to_csv(csv_buffer, index=False)
+        logging.info('Data stored in string buffer')
         upload_to_s3(csv_buffer,'raw/hourlyDatasets',fileName)
         logging.info(f" Weather data saved to {'datalake'}")
     
