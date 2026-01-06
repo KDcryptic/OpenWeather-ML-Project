@@ -11,7 +11,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 
-openWeatherKey = os.getenv('openWeatherKey')
+openWeatherKey = "57776e2832b23eae44d3ec3bcb0c3093"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
@@ -98,12 +98,6 @@ except Exception as e:
 
 
 compileData(dataframes)
-
-s3Client = boto3.client('s3')
-
-response = s3Client.list_buckets()
-print(response)
-   
 
 
 

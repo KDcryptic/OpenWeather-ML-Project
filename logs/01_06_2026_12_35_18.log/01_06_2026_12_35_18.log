@@ -1,0 +1,88 @@
+[2026-01-06 12:35:20,045] 45 root - WARNING - Settlement 'Windhoek' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:20,045] 94 root - INFO -  Skipped Windhoek
+[2026-01-06 12:35:20,866] 45 root - WARNING - Settlement 'Dordabis' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:20,866] 94 root - INFO -  Skipped Dordabis
+[2026-01-06 12:35:21,783] 45 root - WARNING - Settlement 'Seeis' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:21,783] 94 root - INFO -  Skipped Seeis
+[2026-01-06 12:35:22,607] 45 root - WARNING - Settlement 'Swakopmund' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:22,607] 94 root - INFO -  Skipped Swakopmund
+[2026-01-06 12:35:23,341] 45 root - WARNING - Settlement 'Walvis Bay' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:23,341] 94 root - INFO -  Skipped Walvis Bay
+[2026-01-06 12:35:24,038] 45 root - WARNING - Settlement 'Arandis' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:24,038] 94 root - INFO -  Skipped Arandis
+[2026-01-06 12:35:24,758] 45 root - WARNING - Settlement 'Usakos' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:24,758] 94 root - INFO -  Skipped Usakos
+[2026-01-06 12:35:25,470] 45 root - WARNING - Settlement 'Omaruru' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:25,470] 94 root - INFO -  Skipped Omaruru
+[2026-01-06 12:35:26,289] 45 root - WARNING - Settlement 'Henties Bay' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:26,290] 94 root - INFO -  Skipped Henties Bay
+[2026-01-06 12:35:27,112] 45 root - WARNING - Settlement 'Oshakati' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:27,112] 94 root - INFO -  Skipped Oshakati
+[2026-01-06 12:35:27,837] 45 root - WARNING - Settlement 'Ongwediva' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:27,837] 94 root - INFO -  Skipped Ongwediva
+[2026-01-06 12:35:28,751] 45 root - WARNING - Settlement 'Ompundja' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:28,752] 94 root - INFO -  Skipped Ompundja
+[2026-01-06 12:35:29,575] 45 root - WARNING - Settlement 'Eenhana' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:29,575] 94 root - INFO -  Skipped Eenhana
+[2026-01-06 12:35:30,389] 45 root - WARNING - Settlement 'Helao Nafidi' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:30,389] 94 root - INFO -  Skipped Helao Nafidi
+[2026-01-06 12:35:31,203] 45 root - WARNING - Settlement 'Okongo' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:31,204] 94 root - INFO -  Skipped Okongo
+[2026-01-06 12:35:32,034] 45 root - WARNING - Settlement 'Outapi' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:32,034] 94 root - INFO -  Skipped Outapi
+[2026-01-06 12:35:32,847] 45 root - WARNING - Settlement 'Tsandi' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:32,848] 94 root - INFO -  Skipped Tsandi
+[2026-01-06 12:35:33,670] 45 root - WARNING - Settlement 'Okahao' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:33,670] 94 root - INFO -  Skipped Okahao
+[2026-01-06 12:35:35,131] 45 root - WARNING - Settlement 'Ruacana' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:35,131] 94 root - INFO -  Skipped Ruacana
+[2026-01-06 12:35:35,924] 45 root - WARNING - Settlement 'Tsumeb' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:35,925] 94 root - INFO -  Skipped Tsumeb
+[2026-01-06 12:35:36,739] 45 root - WARNING - Settlement 'Omuthiya' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:36,740] 94 root - INFO -  Skipped Omuthiya
+[2026-01-06 12:35:37,555] 45 root - WARNING - Settlement 'Oniipa' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:37,555] 94 root - INFO -  Skipped Oniipa
+[2026-01-06 12:35:38,377] 45 root - WARNING - Settlement 'Otjiwarongo' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:38,378] 94 root - INFO -  Skipped Otjiwarongo
+[2026-01-06 12:35:39,158] 45 root - WARNING - Settlement 'Grootfontein' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:39,158] 94 root - INFO -  Skipped Grootfontein
+[2026-01-06 12:35:39,855] 45 root - WARNING - Settlement 'Okakarara' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:39,855] 94 root - INFO -  Skipped Okakarara
+[2026-01-06 12:35:40,624] 45 root - WARNING - Settlement 'Opuwo' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:40,624] 94 root - INFO -  Skipped Opuwo
+[2026-01-06 12:35:41,451] 45 root - WARNING - Settlement 'Khorixas' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:41,451] 94 root - INFO -  Skipped Khorixas
+[2026-01-06 12:35:44,312] 45 root - WARNING - Settlement 'Sesfontein' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:44,312] 94 root - INFO -  Skipped Sesfontein
+[2026-01-06 12:35:45,135] 45 root - WARNING - Settlement 'Katima Mulilo' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:45,135] 94 root - INFO -  Skipped Katima Mulilo
+[2026-01-06 12:35:45,956] 45 root - WARNING - Settlement 'Kongola' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:45,956] 94 root - INFO -  Skipped Kongola
+[2026-01-06 12:35:46,774] 45 root - WARNING - Settlement 'Rundu' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:46,775] 94 root - INFO -  Skipped Rundu
+[2026-01-06 12:35:47,488] 45 root - WARNING - Settlement 'Divundu' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:47,488] 94 root - INFO -  Skipped Divundu
+[2026-01-06 12:35:48,306] 45 root - WARNING - Settlement 'Nkurenkuru' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:48,307] 94 root - INFO -  Skipped Nkurenkuru
+[2026-01-06 12:35:49,225] 45 root - WARNING - Settlement 'Mpungu' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:49,225] 94 root - INFO -  Skipped Mpungu
+[2026-01-06 12:35:50,052] 45 root - WARNING - Settlement 'Mariental' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:50,052] 94 root - INFO -  Skipped Mariental
+[2026-01-06 12:35:50,866] 45 root - WARNING - Settlement 'Rehoboth' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:50,867] 94 root - INFO -  Skipped Rehoboth
+[2026-01-06 12:35:51,690] 45 root - WARNING - Settlement 'Gibeon' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:51,691] 94 root - INFO -  Skipped Gibeon
+[2026-01-06 12:35:52,504] 45 root - WARNING - Settlement 'Keetmanshoop' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:52,504] 94 root - INFO -  Skipped Keetmanshoop
+[2026-01-06 12:35:53,323] 45 root - WARNING - Settlement 'Lüderitz' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:53,324] 94 root - INFO -  Skipped Lüderitz
+[2026-01-06 12:35:54,148] 45 root - WARNING - Settlement 'Oranjemund' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:54,148] 94 root - INFO -  Skipped Oranjemund
+[2026-01-06 12:35:54,781] 45 root - WARNING - Settlement 'Karasburg' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:54,782] 94 root - INFO -  Skipped Karasburg
+[2026-01-06 12:35:55,431] 45 root - WARNING - Settlement 'Gobabis' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:55,432] 94 root - INFO -  Skipped Gobabis
+[2026-01-06 12:35:56,396] 45 root - WARNING - Settlement 'Leonardville' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:56,397] 94 root - INFO -  Skipped Leonardville
+[2026-01-06 12:35:57,215] 45 root - WARNING - Settlement 'Witvlei' not found. Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+[2026-01-06 12:35:57,215] 94 root - INFO -  Skipped Witvlei
