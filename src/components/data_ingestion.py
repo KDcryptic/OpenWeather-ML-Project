@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import requests
 import os
+import sys
+import boto3
 
 from datetime import datetime
 from dataclasses import dataclass
@@ -9,7 +11,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 
-openWeatherKey = os.getenv('openWeatherKey')
+openWeatherKey = '57776e2832b23eae44d3ec3bcb0c3093' # change back to os.getenv
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
@@ -64,28 +66,45 @@ def getSettlementData(settlement):
     return pd.DataFrame([settlementData])
 
 
+
+
 def compileData(dataframes):
-    df = pd.concat(dataframes, ignore_index=True)
-    filename = datetime.now().strftime("%d_%m_%Y'")
-    output_path = os.path.join("notebooks","data", f"weatherData_{filename}.csv")
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df.to_csv(output_path, index=False)
-    logging.info(f" Weather data saved to {output_path}")
+    
+    try:
+        df = pd.concat(dataframes, ignore_index=True)
+        filename = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
+        output_path = os.path.join("notebooks","data", f"weatherData_{filename}.csv")
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        df.to_csv(output_path, index=False)
+        logging.info(f" Weather data saved to {output_path}")
+    
+    except Exception as e:
+        raise CustomException(e,sys)
 
 
 
 dataframes = []
 
-for settlement in namibia_settlements:
-    settlementDf = getSettlementData(settlement)
-    if settlementDf is not None:   
-        dataframes.append(settlementDf)
-    else:
-        logging.info(f" Skipped {settlement}")
+try:
+    for settlement in namibia_settlements:
+        settlementDf = getSettlementData(settlement)
+        if settlementDf is not None:   
+            dataframes.append(settlementDf)
+        else:
+            logging.info(f" Skipped {settlement}")
+
+except Exception as e:
+    raise CustomException(e,sys)
 
 
 compileData(dataframes)
+
+s3Client = boto3.client('s3')
+
+response = s3Client.list_buckets()
+print(response)
    
+
 
 
 

@@ -1,0 +1,22 @@
+[2026-01-06 11:51:37,452] 45 root - WARNING - Settlement 'Dordabis' not found. Error: city not found
+[2026-01-06 11:51:37,452] 94 root - INFO -  Skipped Dordabis
+[2026-01-06 11:51:38,259] 45 root - WARNING - Settlement 'Seeis' not found. Error: city not found
+[2026-01-06 11:51:38,260] 94 root - INFO -  Skipped Seeis
+[2026-01-06 11:51:46,871] 45 root - WARNING - Settlement 'Okongo' not found. Error: city not found
+[2026-01-06 11:51:46,871] 94 root - INFO -  Skipped Okongo
+[2026-01-06 11:51:47,594] 45 root - WARNING - Settlement 'Outapi' not found. Error: city not found
+[2026-01-06 11:51:47,594] 94 root - INFO -  Skipped Outapi
+[2026-01-06 11:51:49,703] 45 root - WARNING - Settlement 'Ruacana' not found. Error: city not found
+[2026-01-06 11:51:49,704] 94 root - INFO -  Skipped Ruacana
+[2026-01-06 11:51:51,065] 45 root - WARNING - Settlement 'Omuthiya' not found. Error: city not found
+[2026-01-06 11:51:51,065] 94 root - INFO -  Skipped Omuthiya
+[2026-01-06 11:51:56,290] 45 root - WARNING - Settlement 'Sesfontein' not found. Error: city not found
+[2026-01-06 11:51:56,290] 94 root - INFO -  Skipped Sesfontein
+[2026-01-06 11:51:59,280] 45 root - WARNING - Settlement 'Divundu' not found. Error: city not found
+[2026-01-06 11:51:59,280] 94 root - INFO -  Skipped Divundu
+[2026-01-06 11:51:59,982] 45 root - WARNING - Settlement 'Nkurenkuru' not found. Error: city not found
+[2026-01-06 11:51:59,983] 94 root - INFO -  Skipped Nkurenkuru
+[2026-01-06 11:52:00,633] 45 root - WARNING - Settlement 'Mpungu' not found. Error: city not found
+[2026-01-06 11:52:00,634] 94 root - INFO -  Skipped Mpungu
+[2026-01-06 11:52:08,191] 79 root - INFO -  Weather data saved to notebooks\data\weatherData_06_01_2026_11_52_08.csv
+[2026-01-06 11:52:08,309] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials

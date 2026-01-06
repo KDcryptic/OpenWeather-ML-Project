@@ -5,3 +5,5 @@ matplotlib
 seaborn
 requests
 fastapi
+boto3
+awscli
