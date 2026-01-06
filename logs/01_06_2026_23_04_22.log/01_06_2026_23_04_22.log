@@ -1,0 +1,5 @@
+[2026-01-06 23:04:22,970] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-06 23:06:12,056] 79 root - INFO - hourly dataset compiled
+[2026-01-06 23:06:33,086] 104 root - INFO - Uploaded raw/hourlyDatasets/06_01_2026_23_06_12 to open-weather-data-storage
+[2026-01-06 23:06:33,093] 82 root - INFO -  Weather data saved to datalake
+[2026-01-06 23:06:33,093] 123 root - INFO - File uploaded to datalake
