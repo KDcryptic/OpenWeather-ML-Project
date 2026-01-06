@@ -11,7 +11,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 
-openWeatherKey = '57776e2832b23eae44d3ec3bcb0c3093' # change back to os.getenv
+openWeatherKey = os.getenv('openWeatherKey')
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 
