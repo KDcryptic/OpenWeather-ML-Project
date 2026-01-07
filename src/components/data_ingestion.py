@@ -14,12 +14,13 @@ from src.logger import logging
 from io import StringIO
 
 
-openWeatherKey = '57776e2832b23eae44d3ec3bcb0c3093'
+openWeatherKey = os.getenv('openWeatherKey')
 bucketName = 'open-weather-data-storage'
 csv_buffer = StringIO()
 s3 = boto3.client('s3')
+pbKey='o.W7x354jJw6oAAh9exQEAxEikAQQ89XTj'
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
-pb = pushbullet.PushBullet('o.TM7MmVQNI4n0bNbFtyAINDhF2kYbitg9')
+pb = pushbullet.PushBullet(pbKey)
 
 
 
