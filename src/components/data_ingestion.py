@@ -5,6 +5,7 @@ import os
 import json
 import sys
 import boto3
+import pushbullet
 
 from datetime import datetime
 from dataclasses import dataclass
@@ -13,11 +14,12 @@ from src.logger import logging
 from io import StringIO
 
 
-openWeatherKey = os.getenv('openWeatherKey')
+openWeatherKey = '57776e2832b23eae44d3ec3bcb0c3093'
 bucketName = 'open-weather-data-storage'
 csv_buffer = StringIO()
 s3 = boto3.client('s3')
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
+pb = pushbullet.PushBullet('o.TM7MmVQNI4n0bNbFtyAINDhF2kYbitg9')
 
 
 
@@ -84,6 +86,7 @@ def compileData(dataframes):
         df.to_csv(csv_buffer, index=False)
         logging.info('Data stored in string buffer')
         upload_to_s3(csv_buffer,'raw/hourlyDatasets',fileName)
+        pb.push_note('Python Alert',f'{fileName} data sent to datalake')
         logging.info(f" Weather data saved to {'datalake'}")
     
     except Exception as e:

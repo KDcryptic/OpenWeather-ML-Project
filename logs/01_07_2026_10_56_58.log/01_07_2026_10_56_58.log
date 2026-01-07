@@ -1,0 +1,76 @@
+[2026-01-07 10:56:58,255] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-07 10:57:00,405] 46 root - INFO - data collected as json
+[2026-01-07 10:57:00,405] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:01,052] 46 root - INFO - data collected as json
+[2026-01-07 10:57:01,053] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:01,717] 46 root - INFO - data collected as json
+[2026-01-07 10:57:01,717] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:02,396] 46 root - INFO - data collected as json
+[2026-01-07 10:57:02,396] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:03,074] 46 root - INFO - data collected as json
+[2026-01-07 10:57:03,074] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:03,740] 46 root - INFO - data collected as json
+[2026-01-07 10:57:03,740] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:04,404] 46 root - INFO - data collected as json
+[2026-01-07 10:57:04,404] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:05,040] 46 root - INFO - data collected as json
+[2026-01-07 10:57:05,041] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:05,681] 46 root - INFO - data collected as json
+[2026-01-07 10:57:05,681] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:06,335] 46 root - INFO - data collected as json
+[2026-01-07 10:57:06,335] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:06,985] 46 root - INFO - data collected as json
+[2026-01-07 10:57:06,985] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:07,648] 46 root - INFO - data collected as json
+[2026-01-07 10:57:07,648] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:08,307] 46 root - INFO - data collected as json
+[2026-01-07 10:57:08,307] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:08,961] 46 root - INFO - data collected as json
+[2026-01-07 10:57:08,961] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:09,612] 46 root - INFO - data collected as json
+[2026-01-07 10:57:09,612] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:10,263] 46 root - INFO - data collected as json
+[2026-01-07 10:57:10,263] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:10,899] 46 root - INFO - data collected as json
+[2026-01-07 10:57:10,900] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:11,576] 46 root - INFO - data collected as json
+[2026-01-07 10:57:11,576] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:12,219] 46 root - INFO - data collected as json
+[2026-01-07 10:57:12,219] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:12,872] 46 root - INFO - data collected as json
+[2026-01-07 10:57:12,873] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:13,521] 46 root - INFO - data collected as json
+[2026-01-07 10:57:13,521] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:14,186] 46 root - INFO - data collected as json
+[2026-01-07 10:57:14,186] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:14,871] 46 root - INFO - data collected as json
+[2026-01-07 10:57:14,872] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:15,541] 46 root - INFO - data collected as json
+[2026-01-07 10:57:15,541] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:16,196] 46 root - INFO - data collected as json
+[2026-01-07 10:57:16,196] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:16,863] 46 root - INFO - data collected as json
+[2026-01-07 10:57:16,863] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:17,501] 46 root - INFO - data collected as json
+[2026-01-07 10:57:17,501] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:18,149] 46 root - INFO - data collected as json
+[2026-01-07 10:57:18,149] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:18,792] 46 root - INFO - data collected as json
+[2026-01-07 10:57:18,792] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:19,437] 46 root - INFO - data collected as json
+[2026-01-07 10:57:19,437] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:20,143] 46 root - INFO - data collected as json
+[2026-01-07 10:57:20,144] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:20,820] 46 root - INFO - data collected as json
+[2026-01-07 10:57:20,821] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:21,520] 46 root - INFO - data collected as json
+[2026-01-07 10:57:21,520] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:22,194] 46 root - INFO - data collected as json
+[2026-01-07 10:57:22,195] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:22,846] 46 root - INFO - data collected as json
+[2026-01-07 10:57:22,846] 71 root - INFO - data stored and returned as dataframe
+[2026-01-07 10:57:22,849] 82 root - INFO - hourly dataset compiled
+[2026-01-07 10:57:22,857] 85 root - INFO - Data stored in string buffer
+[2026-01-07 10:57:26,285] 105 root - INFO - Uploaded raw/hourlyDatasets/weatherData_07_01_2026_10_57_22.csv to open-weather-data-storage
+[2026-01-07 10:57:26,285] 87 root - INFO -  Weather data saved to datalake
+[2026-01-07 10:57:26,285] 124 root - INFO - File uploaded to datalake
