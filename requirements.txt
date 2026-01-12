@@ -12,3 +12,5 @@ papermill
 nbconvert
 weasyprint
 pdfkit
+catboost
+xgboost

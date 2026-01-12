@@ -14,10 +14,7 @@
         th { background-color: #f4f4f4; }
         .highlight { background-color: #eaf2f8; font-weight: bold; }
         footer { text-align: center; margin-top: 50px; font-size: 12px; color: #7f8c8d; }
-        img {
-            height:100%;
-            
-        }
+        
     </style>
 </head>
 <body>
@@ -69,10 +66,10 @@
             {% for row in earliestSunrise %}
             
             <tr>
+
                 <td>{{ row.city }}</td>
                 <td>{{ row.sunrise_time }}</td>
                 <td>{{ row.sunset_time }}</td>
-                
                 
             </tr>
             {% endfor %}
