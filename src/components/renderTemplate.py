@@ -70,7 +70,7 @@ eda_path = cwd / 'notebooks/EDA.ipynb'
 
 df = downloadFiles(csv_buffer,filePath)
 df2 = df.groupby('city')[['city','temp','clouds','pressure','humidity']].max().head(35)
-earlySunrise =df.groupby('city')[['city','sunrise_time','sunset_time']].head(35)
+earlySunrise =df.groupby('city')[['city','sunrise_time','sunset_time','day_length']].max().head(35)
 corr_matrix= df.corr(numeric_only=True)
 sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", center=0)
 buf=BytesIO()

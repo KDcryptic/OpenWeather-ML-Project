@@ -1,0 +1,2 @@
+[2026-01-12 09:37:56,187] 1392 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2026-01-12 09:38:02,406] 35 root - INFO - File Downloaded!
