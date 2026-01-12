@@ -52,8 +52,8 @@
         <table>
             <tr><th>City</th><th>Humidity (%)</th></tr>
             {% for row in weather_data %}
-            <tr {% if row.humidity < 75.0 %}class="highlight"{% endif %}>
-            <tr>
+            <tr {% if row.humidity > 75 %}class="highlight"{% endif %}>
+            
                 <td>{{ row.city }}</td>
                 <td>{{ row.humidity }}</td>
                 
