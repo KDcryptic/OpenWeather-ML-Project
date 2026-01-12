@@ -72,7 +72,7 @@ def processData(df):
         
         cleanDf['sunrise_time'] = cleanDf['sunrise'].dt.time
         cleanDf['sunset_time'] = cleanDf['sunset'].dt.time
-        cleanDf['day_length'] = cleanDf['sunset'] - cleanDf['sunrise']
+        
         
         
         

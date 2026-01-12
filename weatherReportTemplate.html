@@ -52,7 +52,7 @@
         <table>
             <tr><th>City</th><th>Humidity (%)</th></tr>
             {% for row in weather_data %}
-            <tr {% if row.humidity < 80 %}class="highlight"{% endif %}>
+            <tr {% if row.humidity < 75.0 %}class="highlight"{% endif %}>
             <tr>
                 <td>{{ row.city }}</td>
                 <td>{{ row.humidity }}</td>
@@ -65,14 +65,14 @@
     <section>
         <h2>Sunrise and Sunset Times Recorded</h2>
         <table>
-            <tr><th>City</th><th>Sunrise</th><th>Sunset</th><th>Day Length</th></tr>
+            <tr><th>City</th><th>Sunrise</th><th>Sunset</th></tr>
             {% for row in earliestSunrise %}
             
             <tr>
                 <td>{{ row.city }}</td>
                 <td>{{ row.sunrise_time }}</td>
                 <td>{{ row.sunset_time }}</td>
-                <td>{{ row.day_length }}</td>
+                
                 
             </tr>
             {% endfor %}
