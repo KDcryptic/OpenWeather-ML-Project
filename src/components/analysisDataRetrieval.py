@@ -6,7 +6,7 @@ from io import BytesIO
 from io import StringIO
 import os 
 
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta, date, time
 from src.exception import CustomException
 from src.logger import logging
 import pushbullet
@@ -73,6 +73,8 @@ def processData(df):
         cleanDf['sunrise_time'] = cleanDf['sunrise'].dt.time
         cleanDf['sunset_time'] = cleanDf['sunset'].dt.time
         cleanDf['day_length'] = cleanDf['sunset']-cleanDf['sunrise']
+        cleanDf['day_length'] = str(cleanDf['day_length'])[7:]
+        
         
         
         
