@@ -1,3 +1,3 @@
-"# Twitter-ML-Project" 
+"# Open-Weather-ML-Project" 
 
-A data science project focused on pulling twitter data, storing it in the cloud and performing data science practices such as machine learning, EDA and automation
+A data science project focused on pulling weather data from 36 towns in namibia, storing it in a cloud-based datalake and performing EDA and generating daily reports automatically.
